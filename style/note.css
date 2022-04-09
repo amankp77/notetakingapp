@@ -337,7 +337,7 @@ width: 100%;
     display: block;
     height: .4rem;
     width: 5rem;
-    background-color: wheat;
+    background-color: #fefae0;
     position: relative;
     z-index: 4;
     
@@ -347,7 +347,7 @@ width: 100%;
     display: block;
     height: .4rem;
     width: 5rem;
-    background-color: wheat;
+    background-color: #fefae0;
     position: absolute;
     top: 1.3rem;
     transition: all 0.3s;
@@ -360,7 +360,7 @@ width: 100%;
     display: block;
     height: .4rem;
     width: 5rem;
-    background-color: wheat;
+    background-color: #fefae0;
     position: absolute;
     top: -1.3rem;
     transition: all 0.3s;
@@ -406,7 +406,7 @@ width: 100%;
 .burger-cont{
     position: absolute;
     top: 5rem;
-    right: 2rem;
+    right:2rem;
 }
 
 @media (max-width:1300px) {
@@ -484,6 +484,11 @@ width: 100%;
     
     .burger-cont-super{
         z-index: 400;
+    }
+
+    .note{
+        margin: 2rem;
+        
     }
 }
 
