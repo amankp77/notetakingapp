@@ -463,6 +463,19 @@ width: 100%;
 }
 
 
+@media (max-width:650px) {
+
+     .main.nav .left{
+       
+        flex:0 0 40%;
+    }
+
+    .main.nav .right{
+        flex:0 0 60%;
+    }
+
+}
+
 @media (max-width:500px) {
 
     .main{
@@ -488,7 +501,7 @@ width: 100%;
 
     .note{
         margin: 2rem;
-        
+
     }
 }
 
